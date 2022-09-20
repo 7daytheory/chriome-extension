@@ -3,6 +3,7 @@
     "description": "Help focus items on a page and add readibility",
     "version": "1.0",
     "manifest_version": 3,
+    "options_page": "options.html",
     "background": {
         "service_worker": "background.js"
       },
@@ -22,6 +23,4 @@
         "48": "/images/icon_48.png",
         "128": "/images/icon_128.png"
       }
-      
-      
   }
